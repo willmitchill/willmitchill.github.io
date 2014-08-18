@@ -30,7 +30,7 @@ $(document).ready(function() {
 
   $( "#css" ).mouseenter(
     function() {
-      $( this ).html( "Pan Flute" ).css( "width", "45%");
+      $( this ).html( "Jazz Flute" ).css( "width", "45%");
   }).mouseleave(
     function() {
       $( this ).html( "CSS3" ).css( "width", "70%");
@@ -62,7 +62,7 @@ $(document).ready(function() {
 
   $( "#github" ).mouseenter(
     function() {
-      $( this ).html( "Poetry" ).css( "width", "23%");
+      $( this ).html( "Group Hugs" ).css( "width", "83%");
   }).mouseleave(
     function() {
       $( this ).html( "Github" ).css( "width", "55%");
@@ -70,7 +70,7 @@ $(document).ready(function() {
 
   $( "#html" ).mouseenter(
     function() {
-      $( this ).html( "Group Hugs" ).css( "width", "83%");
+      $( this ).html( "Board Games" ).css( "width", "23%");
   }).mouseleave(
     function() {
       $( this ).html( "HTML5" ).css( "width", "85%");

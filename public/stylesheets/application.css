@@ -168,6 +168,7 @@ background-color: rgba(38,125,255,.7);
   font-size: 50px;
   text-align: left;
   margin: 0 0 30px 50px;
+  padding-left: 60px;
 }
 
 .skills {
@@ -250,6 +251,7 @@ background-color: rgba(38,125,255,.7);
 .project-container h2 {
   font-family: 'Yellowtail', cursive;
   font-size: 50px;
+  color: black;
 }
 
 #yolo {
