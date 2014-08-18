@@ -30,7 +30,7 @@ $(document).ready(function() {
 
   $( "#css" ).mouseenter(
     function() {
-      $( this ).html( "Finance" ).css( "width", "65%");
+      $( this ).html( "Finance" ).css( "width", "55%");
   }).mouseleave(
     function() {
       $( this ).html( "CSS3" ).css( "width", "70%");

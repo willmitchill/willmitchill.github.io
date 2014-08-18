@@ -100,6 +100,10 @@ background-color: rgba(0,255,208,1);
 
 #top {
   z-index: -300;
+  border-radius: 50%;
+}
+#bottom {
+  border radius: 50%;
 }
 
 .row {
@@ -286,7 +290,7 @@ padding: 50px;
   -o-transition: opacity 0.7s ease-in-out;
   transition: opacity 0.7s ease-in-out;
   position: absolute;
-  padding-top:50px;
+  padding-top:120px;
 
 }
 
