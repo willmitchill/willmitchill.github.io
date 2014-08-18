@@ -22,7 +22,7 @@ $(document).ready(function() {
 
   $( "#ruby" ).mouseenter(
     function() {
-      $( this ).html( "Bowstaff" ).css( "width", "95%");
+      $( this ).html( "Public Speaking" ).css( "width", "75%");
   }).mouseleave(
     function() {
       $( this ).html( "Ruby on Rails" ).css( "width", "80%");
@@ -30,7 +30,7 @@ $(document).ready(function() {
 
   $( "#css" ).mouseenter(
     function() {
-      $( this ).html( "Jazz Flute" ).css( "width", "45%");
+      $( this ).html( "Finance" ).css( "width", "65%");
   }).mouseleave(
     function() {
       $( this ).html( "CSS3" ).css( "width", "70%");
@@ -38,7 +38,7 @@ $(document).ready(function() {
 
   $( "#jquery" ).mouseenter(
     function() {
-      $( this ).html( "Knitting" ).css( "width", "15%");
+      $( this ).html( "Marketing" ).css( "width", "69%");
   }).mouseleave(
     function() {
       $( this ).html( "jQuery" ).css( "width", "45%");
@@ -46,7 +46,7 @@ $(document).ready(function() {
 
   $( "#javascript" ).mouseenter(
     function() {
-      $( this ).html( "Lion Taming" ).css( "width", "20%");
+      $( this ).html( "Video Editing" ).css( "width", "90%");
   }).mouseleave(
     function() {
       $( this ).html( "Javascript" ).css( "width", "50%");
@@ -54,7 +54,7 @@ $(document).ready(function() {
 
   $( "#tdd" ).mouseenter(
     function() {
-      $( this ).html( "Finger Painting" ).css( "width", "98%");
+      $( this ).html( "Leadership" ).css( "width", "67%");
   }).mouseleave(
     function() {
       $( this ).html( "TDD" ).css( "width", "35%");
@@ -62,7 +62,7 @@ $(document).ready(function() {
 
   $( "#github" ).mouseenter(
     function() {
-      $( this ).html( "Group Hugs" ).css( "width", "83%");
+      $( this ).html( "Sales" ).css( "width", "65%");
   }).mouseleave(
     function() {
       $( this ).html( "Github" ).css( "width", "55%");
@@ -70,7 +70,7 @@ $(document).ready(function() {
 
   $( "#html" ).mouseenter(
     function() {
-      $( this ).html( "Board Games" ).css( "width", "23%");
+      $( this ).html( "Bowstaff" ).css( "width", "63%");
   }).mouseleave(
     function() {
       $( this ).html( "HTML5" ).css( "width", "85%");
