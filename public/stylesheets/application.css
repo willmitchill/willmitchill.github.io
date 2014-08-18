@@ -1,0 +1,330 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Lato|PT+Sans+Narrow|Raleway|Open+Sans+Condensed:300);
+
+* {
+  font-weight: 300;
+}
+
+body {
+  margin-top:50px;
+}
+
+
+.lead {
+  padding: 30px;
+  font-size: 15px;
+  line-height: 12px;
+}
+#info-and-image h2 {
+  margin-left: 40px;
+}
+
+#navwrapper {
+  width: 100%;
+  z-index: 5;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+border-color: #c0c0c0;
+background-color: #c0c0c0;
+}
+
+.container-fluid {
+  background-color: #c0c0c0;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+margin-left: -15px;
+background-color: #c0c0c0;
+}
+
+
+.navbar-nav.navbar-right:last-child {
+margin-right: -15px;
+background-color: #c0c0c0;
+}
+
+
+#nav-item {
+  font-family: 'Raleway', sans-serif;
+}
+
+#jumbo {
+background:
+linear-gradient(135deg, #fff 25%, transparent 5%) -50px 0,
+linear-gradient(225deg, #fff 25%, transparent 5%) -50px 0,
+linear-gradient(315deg, #fff 25%, transparent 5%),
+linear-gradient(45deg, #c0c0c0 25%, transparent 5%);
+background-size: 100px 100px;
+background-color: rgba(0,255,208,1);
+  height: 200px;
+  width: 100%;
+}
+
+.img-circle {
+border-radius: 50%;
+margin-left: 102px;
+}
+
+
+
+#jumboform {
+  background-color: #48BBE9;
+}
+
+.jumbotron p {
+  color: black;
+}
+
+#joinproj {
+  background-image: url(http://extra.upmc.com/100806/images/86537853_web.jpg);
+  background-position: 50% 17%;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px #000000;
+}
+
+#blue {
+  color: #6698D1;
+}
+
+#about {
+  margin: 2em 10em 0em 10em;
+
+
+}
+
+#top {
+  z-index: -300;
+}
+
+.row {
+margin-right: -15px;
+margin-left: -15px;
+}
+
+
+@media (min-width: 992px)
+
+ .col-md-7 {
+width: 58.33333333%;
+padding-left: 50px;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+display: block;
+width: 100% \9;
+max-width: 100%;
+height: auto;
+padding-right: 50px;
+}
+.bottomwhite {
+  color:#2D2D2D;
+}
+
+
+.title{
+  text-align: center;
+  margin-top: 70px;
+  font-size: 200px;
+  position: relative;
+}
+
+.amatic {
+  font-family: 'Yellowtail', cursive;
+  font-size: 120px;
+  color: black;
+  line-height: 1.6;
+}
+
+#title2 {
+  text-align: center;
+  font-size: 50px;
+  vertical-align: middle;
+  padding: 10px;
+  color: black;
+
+}
+
+#texturebg2 {
+/*background:
+linear-gradient(135deg, #fff 25%, transparent 5%) -50px 0,
+linear-gradient(225deg, #fff 25%, transparent 5%) -50px 0,
+linear-gradient(315deg, #fff 25%, transparent 5%),
+linear-gradient(45deg, #c0c0c0 25%, transparent 5%);
+background-size: 100px 100px;
+background-color: rgba(38,125,255,.7);
+  height: 500px;
+  width: 100%;*/
+}
+
+.skills-container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#skills-bar h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 50px;
+  text-align: left;
+  margin: 0 0 30px 50px;
+}
+
+.skills {
+  height: 30px;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  margin: 15px;
+  padding-left: 30px;
+  text-align: left;
+  padding-top:3px;
+  transition: 0.5s;
+}
+
+#ruby {
+  width: 80%;
+  border-radius: 5px;
+  background-color: #B8FFDB;
+}
+
+.skills:hover {
+  height: 35px;
+  background-color: red;
+
+}
+
+#css {
+  width: 70%;
+  border-radius: 5px;
+  background-color: #A6A6A6;
+}
+
+#html {
+  width: 85%;
+  border-radius: 5px;
+  background-color: #B8FFDB;
+}
+
+#javascript {
+  width: 50%;
+  border-radius: 5px;
+  background-color: #B8FFDB;
+}
+
+#tdd {
+  width: 35%;
+  border-radius: 5px;
+  background-color: #A6A6A6;
+}
+
+#jquery {
+  width: 45%;
+  border-radius: 5px;
+  background-color: #1cffca;
+}
+
+#github {
+  width: 55%;
+  border-radius: 5px;
+  background-color: #D4D4D4;
+}
+
+#skittles {
+  font-family: 'Yellowtail', cursive;
+  text-align: left;
+  font-size: 50px;
+  padding: 10px;
+  color: black;
+}
+
+#all-projects {
+  padding: 40px;
+}
+
+.project-container {
+  font-size:15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.project-container h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 50px;
+}
+
+#yolo {
+line-height: 2;
+padding: 50px;
+}
+
+.writing-cont {
+  display: inline;
+}
+
+.project-img {
+  display: inline;
+  float:right;
+}
+
+.project-img img {
+  width: 400px;
+  padding-left: 50px;
+
+}
+
+#project-text {
+  line-height: 3;
+}
+
+.nav-img {
+  width:30px;
+  margin-top: 8px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+
+}
+
+.col-md-5 {
+  position: relative;
+}
+
+.col-md-5 img {
+  -webkit-transition: opacity 0.7s ease-in-out;
+  -moz-transition: opacity 0.7s ease-in-out;
+  -o-transition: opacity 0.7s ease-in-out;
+  transition: opacity 0.7s ease-in-out;
+  position: absolute;
+
+}
+
+.col-md-5 img.bottom {
+  z-index: -500;
+}
+
+.col-md-5 img.top:hover {
+  opacity: 0;
+  }
+
+
+
+form {
+      font-size: 1.1em;
+      width: 500px;
+      margin: 50px 20px 0 8%;
+  }
+form input[type="text"] {
+  width: 300px;
+  margin: 25px 0 25px 0;
+}
+form input[type="submit"] {
+  background-color: #241d19;
+  color: white;
+  border-radius:20%;
+  margin:10px;
+  border-style:none;
+}
+
+form p {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
