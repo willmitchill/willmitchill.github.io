@@ -30,7 +30,7 @@ $(document).ready(function() {
 
   $( "#css" ).mouseenter(
     function() {
-      $( this ).html( "Finance" ).css( "width", "55%");
+      $( this ).html( "RSpec" ).css( "width", "35%");
   }).mouseleave(
     function() {
       $( this ).html( "CSS3" ).css( "width", "70%");
@@ -46,7 +46,7 @@ $(document).ready(function() {
 
   $( "#javascript" ).mouseenter(
     function() {
-      $( this ).html( "Video Editing" ).css( "width", "90%");
+      $( this ).html( "Video Editing" ).css( "width", "87%");
   }).mouseleave(
     function() {
       $( this ).html( "Javascript" ).css( "width", "50%");
@@ -54,10 +54,10 @@ $(document).ready(function() {
 
   $( "#tdd" ).mouseenter(
     function() {
-      $( this ).html( "Leadership" ).css( "width", "67%");
+      $( this ).html( "TDD" ).css( "width", "67%");
   }).mouseleave(
     function() {
-      $( this ).html( "TDD" ).css( "width", "35%");
+      $( this ).html( "Dev Tools" ).css( "width", "35%");
   });
 
   $( "#github" ).mouseenter(
@@ -65,7 +65,7 @@ $(document).ready(function() {
       $( this ).html( "Sales" ).css( "width", "65%");
   }).mouseleave(
     function() {
-      $( this ).html( "Github" ).css( "width", "55%");
+      $( this ).html( "Git" ).css( "width", "55%");
   });
 
   $( "#html" ).mouseenter(
